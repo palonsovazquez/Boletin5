@@ -66,8 +66,8 @@ public class Conta {
     }
     
     public void transfer(Conta bankAccount,Double importe){
-        if(this.getAccountBalance() >= importe){
-        this.refound(importe);
+        if(this.refound(importe)){
+        
         bankAccount.deposit(importe);
         
         

@@ -28,9 +28,14 @@ public class Boletin5 {
         
         cuentaPrueba2.show();
         
-        cuentaPrueba1.transfer(cuentaPrueba2, 600d);
+        cuentaPrueba1.transfer(cuentaPrueba2, 100d);
         
         cuentaPrueba1.show();
+        
+        cuentaPrueba2.show();
+        
+        cuentaPrueba2.transfer(cuentaPrueba1, 400d);
+         cuentaPrueba1.show();
         
         cuentaPrueba2.show();
         
